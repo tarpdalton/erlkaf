@@ -3,7 +3,7 @@
 -include("erlkaf.hrl").
 -include("erlkaf_private.hrl").
 
--define(POLL_IDLE_MS, 1000).
+-define(POLL_IDLE_MS, 10).
 -define(DEFAULT_BATCH_SIZE, 100).
 
 -behaviour(gen_server).
